@@ -29,7 +29,7 @@ p {
 
 h1 {
     font-weight: 900;
-    font-size: 3.0rem;
+    font-size: 7.5rem;
 }
 
 h2 {
@@ -79,7 +79,7 @@ header {
 }
 
 nav {
-    padding: 2% 2%;
+    padding: 2% 8%;
     display: flex;
     justify-content: space-between;
 }
