@@ -1,146 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Ghosthouse</title>
 </head>
 <body>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"> 
-<header class="main-header" id="home">
-        <nav class="header-container clearfix">
-        <h1 class="name">Obed Ikechukwu Ugwu</h1>
-        <ul class="main-nav">
-            <li><a class="link1" href="#home">Home</a></li>
-            <li><a class="link2" href="#portfolio">Portfolio</a></li>
-            <li><a class="link3" href="#socials">Socials</a></li>
-            <li><a class="link4" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-        <div class="banner">
-            <img class="profile-picture" src="gig.jpg" alt="Profile Picture">
-            <p class="intro-text">Hello,<br> My name is Obed based in Lagos, Nigeria.<br> I'm a web developer and software developer with the skills to create a new high quality website & software or improve existing websites for individuals and organisations, using the latest techniques and trend.
-              Seeking to use proven skills in Html and Css, React, PHP, Laravel. I'm open to learning more Technologies.
-I enjoy creative problem solving and getting exposure on multiple projects,
-and I would excel in the collaborative environment on which your company prides itself.
-
-
-            </p>
-            
-        </div>
-    </header>
-
-        <div class="main" id="portfolio">
-            <h4>PORTFOLIO</h4>
-            <div class="container">
-            <figure class="figure1">
-                <img src="Capture.PNG" alt="Portfolio 1 Picture">
-                <h3>Restaurant Management System</h3>
-                <figcaption>
-                    Created a restaurant management system using Laravel with two types of users. Costumers and Admin
-                </figcaption>
-                <a href="https://github.com/UgwuObed/VivtFood-" target="_blank" class="btn contact-details"> <i class="fab fa-github"></i></a>
-            </figure>
-
-            <figure class="figure2">
-                <img src="https://i.postimg.cc/LXYD13y4/portfolio-2.png" alt="Portfolio 2 Picture">
-                <h3>Search Page</h3>
-                <figcaption>
-                    This project searches through a specific database to find information that the user
-                    is trying to look up.
-                </figcaption>
-            </figure>
-
-            <figure class="figure3">
-                <img src="https://i.postimg.cc/G3Dz3z8q/portfolio-3.png" alt="Portfolio 3 Picture">
-                <h3>Travel App</h3>
-                <figcaption>
-                    This project compares travel times based on different transportation methods and tells
-                    you the best one.
-                </figcaption>
-            </figure>
-
-            <figure class="figure4">
-                <img src="https://i.postimg.cc/zf3SskYw/portfolio-4.png" alt="Portfolio 4 Picture">
-                <h3>Map of Favorite Spots</h3>
-                <figcaption>
-                    This project uses mapping apis to plot points for my favorite spots in the city for a
-                    do-it-yourself walking tour.
-                </figcaption>
-            </figure>
-
-            <figure class="figure5">
-                <img src="https://i.postimg.cc/RVMfrTc3/portfolio-5.png" alt="Portfolio 5 Picture">
-                <h3>Photo Gallery</h3>
-                <figcaption>
-                    This project shows pictures from a recent trip to the viewer and allows them to easily
-                    navigate through photos.
-                </figcaption>
-            </figure>
-
-            <figure class="figure6">
-                <img src="https://i.postimg.cc/13dNqhb6/portfolio-6.png" alt="Portfolio 6 Picture">
-                <h3>Calculator</h3>
-                <figcaption>
-                    Someone can enter in the numbers they want, and press the big blue button and get the 
-                    result.
-                </figcaption>
-            </figure>
-             </div>
-        </div>
-
-        <div class="section-socials" id="socials">
-            <div class="social-header">
-                <h1 class="social-text">
-                    How about we, connect?
-                </h1>
-                <p>You can find me on</p>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h1>Ghosthouse</h1>
+                </div>
+                <ul>
+                    <li><a href="#abouts">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimony">Testimonials</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+                <box-icon name='menu' color="whitesmoke" size="lg" id="menu"></box-icon>
+            </nav>
+            <div class="header-content">
+                <h1>HIRE PRO-HACKERS</h1>
+                <p>Guaranteed trust from over 11,326 clients, for exceeding expectations <br>and providing solutions.</p>
+                <button class="button" type="button"><a href="#abouts">Abouts Us</a></button>
+                <button class="b1" type="button"><a href="#services">Our Services</a></button>
+                <form>
+                    <h2>Leave A Message</h2>
+                    <input type="text" placeholder="Leave your comments here">
+                    <input type="email" placeholder="Enter your email">
+                    <input type="submit" value="Submit">
+                </form>
             </div>
+        </header>
+    
+        <!-- About -->
+        <section class="about">
+            <div class="row">
+                <div class="about-left">
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div class="about-middle">
+                    <h2>Cyber-Security Experts.</h2>
+                    <p>A seasoned team of experts in cyber-security, fully equipped with the best tools and eager to offer the best services worldwide. 
+                    </p>
+                    <button class="b1" type="button"><a href="#">Our Services</a></button>
+                </div>
+                <div class="about-right">
+                    <h2>Reliable and relatable</h2>
+                    <p>A combination of pro-computing and technical expertise is th benchmark on which we deliver prompt results.
+                    </p>
+                    <p>Certified hackers at your services</p>
+                    <button class="b1" type="button"><a href="#">Contact</a></button>
+                </div>
+            </div>
+        </section>
+    
+        <!-- About 2 -->
+        <div id="abouts"></div>
+        <section class="about2">
+            <div class="row">
+                <div class="about2-left">
+                    <h2>Why Choose Us</h2>
+                    <p><i class="fa fa-shield" aria-hidden="true"></i>&nbsp; Information Security. <br></h5><br><br>
+                        <p>We hope our clients privacy and security highly secured without trace.</p><br><br><br><br><br>
+                        <p><i class="fa fa-chain"></i>&nbsp; Reliable.<br></p><br><br>
+                        <p>Our services are 100% tested and guaranteed,fast and effective.</p><br><br><br><br><br>
+                        <p><i class="fa fa-star"></i>&nbsp; Integrity.<br></p><br><br>
+                        <p>No matter your requests, we can get it done in no time and professionally.</p>
+                </div>
+                <div id="services"></div>
+                <div class="about2-right">
+                    <h2>Key services</h>
+                    <div class="row">
+                        <div class="card">
+                            <box-icon type="logo" name="apple" color="#4CAF50" size="60px"></box-icon>
+                            <h2>Web/Database hacking</h2>
+                        </div>
+                        <div class="card">
+                            <box-icon type="logo" name="android" color="#4CAF50" size="60px"></box-icon>
+                            <h2>Social media hacking</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <box-icon name="data" color="#4CAF50" size="60px"></box-icon>
+                            <h2>Password recovery</h2>
+                        </div>
+                        <div class="card">
+                            <box-icon name="line-chart-down" color="#4CAF50" size="60px"></box-icon>
+                            <h2>Bitcoin hacking</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- process -->
+        <section class="process">
+            <div class="row">
+                <h2>What is our Process</h2>
+            </div>
+            <div class="row">
+                <div class="process-content">
+                    <div class="progress-bar">
+                        <div class="c1"></div>
+                        <div class="c2"></div>
+                        <div class="c3"></div>
+                    </div>
+                    <div class="row">
+                        <div class="box1">
+                            <h2>One</h2>
+                            <p>Find The Weaknesses Of<br> Our Victim</p>
+                        </div>
+                        <div class="box2">
+                            <h2>Two</h2>
+                            <p>Exploit Their Weaknesses</p>
+                        </div>
+                        <div class="box3">
+                            <h2>Three</h2>
+                            <p>Job Done</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Testimony -->
+        <div id="testimony">
+        <section class="testimony">
+            <div class="row">
+                <div class="test">
+                    <div class="image">
+                        <img src="ManWhite.jpg" alt="">
+                    </div>
+                    <div class="test-content">
+                        <p>"Just to be clear with the help of the Ghosthouse team i have been able to recover my stolen Instagram page. Still Thabks to you guys my online e-commmerce store would've been fully damaged. You guys are amazing Thanks."</p>
+                        <h2>Will Stones</h2>
+                        <div class="icons">
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star-half' type='solid' color='whitesmoke'></box-icon>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="test">
+                    <div class="image">
+                        <img src="girl.jpg" alt="">
+                    </div>
+                    <div class="test-content">
+                        <p>"Wow Ghosthouse cleared out my students loan from my bank without anyone's noticing. These guys are incredible! My recommendations were sure. Thanks"</p>
+                        <h2>Lora Anderson</h2>
+                        <div class="icons">
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star' type='solid' color='whitesmoke'></box-icon>
+                            <box-icon name='star-half' type='solid' color='whitesmoke'></box-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Contact -->
+         <div id="contacts"></div>
+        <section class="contact">
+            <div class="row">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="row">
+                <form>
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <textarea>Enter your message</textarea>
+                    <input type="submit" value="Send"><br>
+                </form>
+            </div>
+        </section>
+       <div class="social">
 
-            <div class="contact-links">
-                <a href="https://www.instagram.com/obed_ugwu/" target="_blank" 
-                   class="btn contact-details"><i class="fab fa-instagram"></i>
-                   </a>
-                <a
-                   href="https://twitter.com/Ugwu_Obed"
-                   target="_blank"
-                   class="btn contact-details"><i class="fab fa-twitter"></i>
-                  </a>
-                <a href="https://www.linkedin.com/in/obed-ugwu-81a568180/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/UgwuObed" target="_blank" class="btn contact-details"> <i class="fab fa-github"></i></a>
-              </div>
-
-        </div>
-
-<div class="bottom">
-        <div class="section-contact" id="contact">
-            <h2>Contact</h2>
-            <p>If you're interested in chatting or want more information <br> about what I've been working 
-                on, I'd love to hear from you!
-            </p>
-            <div class="info">
-            <p>Phone &nbsp;<strong>+234 (090) 4698-6922</strong></p>
-            <p>Email   &nbsp;<strong>ugwuobedv@outlook.com</strong></p>
-             </div>
-        </div>
-
-        <footer class="main-footer">
-            
-            <h3 class="name-footer">Obed Ugwu</h3>
-            <ul class="back-to-top">
-                <li><a href="#">Back To Top</a></li>
-
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#socials">Socials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <!-- <a class="back-to-top" href="#">Back To Top</a> -->
-        
+       </div>
+        <!-- Footer -->
+        <footer>
+            <p><box-icon name='heart' type='solid' color='whitesmoke'></box-icon>          
+                <a href="https://wa.link/6u274m"><i class="material-icons">whatsapp</i></a>
+                <a href="https://instagram.com/hackerwillbrown1?utm_medium=copy_link"><i class="material-icons">instagram</i></a></p>
         </footer>
-    </div>
-  </body>
-  </html>
+ <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+19735479656", // WhatsApp number
+            instagram: "Hackerwillbrown1", // Instagram username
+            instagram_color: "#E74339", // Instagram button color
+            call_to_action: "Message us", // Call to action
+            button_color: "#A8CE50", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "whatsapp,instagram", // Order of buttons
+            pre_filled_message: "Hello you have meet Ghosthouse.", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>    
+    <script src="index.js"></script>
+</body>
+</html>
